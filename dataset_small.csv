@@ -1,0 +1,32 @@
+id,text,label,notes
+1,This is shit,1.0,explicit profanity
+2,Go to hell,1.0,explicit profanity
+3,You're an asshole,1.0,explicit profanity
+4,What the fuck,1.0,explicit profanity
+5,Bloody hell,1.0,explicit profanity
+6,kutte ki aulad,1.0,explicit profanity
+7,chutiya,1.0,explicit profanity
+8,harami,1.0,explicit profanity
+9,randi,1.0,explicit profanity
+10,This is sh1t,1.0,obfuscated profanity
+11,What the f*ck,1.0,obfuscated profanity
+12,s.h.i.t,1.0,obfuscated profanity
+13,fuuuuck,1.0,obfuscated profanity
+14,a$$hole,1.0,obfuscated profanity
+15,kutt3 k1 @ul@d,1.0,obfuscated profanity
+16,chut!ya,1.0,obfuscated profanity
+17,Hello world,0.0,clean text
+18,How are you doing?,0.0,clean text
+19,This is a classroom,0.0,clean text
+20,I live in Scunthorpe,0.0,clean text
+21,The shell is hard,0.0,clean text
+22,Nice to meet you,0.0,clean text
+23,What is your name?,0.0,clean text
+24,I like to play games,0.0,clean text
+25,The weather is nice,0.0,clean text
+26,Have a good day,0.0,clean text
+27,You're a special person,0.5,contextual/ambiguous
+28,That's one hell of a game,0.5,contextual/ambiguous
+29,I'm feeling bloody tired,0.5,contextual/ambiguous
+30,That's badass,0.5,contextual/ambiguous
+31,This is the shit! (meaning excellent),0.5,contextual/ambiguous

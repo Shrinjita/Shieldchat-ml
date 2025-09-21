@@ -1,0 +1,42 @@
+
+```text
+# demo_script.txt
+Demo Script - Profanity Detection MVP
+
+Step 1: Start the application
+- Run: streamlit run app.py
+- Open browser to the local URL
+
+Step 2: Demonstrate clean text
+- Enter: "Hello world, how are you?"
+- Show: Green CLEAN status with low score
+- Explain: No matches found in our detection systems
+
+Step 3: Demonstrate explicit profanity
+- Enter: "This is shit"
+- Show: Red FLAGGED status with high score
+- Explain: Exact match to blacklist term "shit" (weight 3)
+
+Step 4: Demonstrate obfuscation detection
+- Enter: "That's some sh1t"
+- Show: Still flagged with slightly lower score
+- Explain: Obfuscation pattern detected (weight 2) + leet substitution normalized
+
+Step 5: Demonstrate Hindi detection
+- Enter: "kutte ki aulad"
+- Show: Flagged with medium score
+- Explain: Exact match to Hindi profanity term from our extended list
+
+Step 6: Demonstrate batch processing
+- Upload dataset_small.csv
+- Show: Summary statistics with counts of flagged vs clean
+- Click through a few examples to show detailed explanations
+
+Step 7: Adjust sensitivity
+- Move threshold slider to show how it affects detection
+- Demonstrate borderline cases at different thresholds
+
+Step 8: Highlight explainability features
+- Show how each detection shows the specific matched pattern
+- Demonstrate different match types (exact, obfuscation, fuzzy)
+- Emphasize the transparency of the decision process
